@@ -33,49 +33,7 @@
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSExceptionDomains</key>
-		<dict>
-			<key>119.28.35.132</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-				<key>NSExceptionMinimumTLSVersion</key>
-				<string>TLSv1.0</string>
-				<key>NSExceptionRequiresForwardSecrecy</key>
-				<false/>
-			</dict>
-			<key>35.77.60.182</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-				<key>NSIncludesSubdomains</key>
-				<true/>
-			</dict>
-			<key>dev.halftrust.xyz</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-				<key>NSExceptionMinimumTLSVersion</key>
-				<string>TLSv1.0</string>
-				<key>NSExceptionRequiresForwardSecrecy</key>
-				<false/>
-			</dict>
-			<key>openplatform.gateapi.io</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-				<key>NSIncludesSubdomains</key>
-				<true/>
-			</dict>
-			<key>walletconnect.com</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-				<key>NSExceptionMinimumTLSVersion</key>
-				<string>TLSv1.0</string>
-				<key>NSExceptionRequiresForwardSecrecy</key>
-				<string>NO</string>
-			</dict>
-		</dict>
+		<dict/>
 	</dict>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
