@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         GatePaySDK.shared.regist(isDebug: false, clientId: GTOPDEnvCacheManager.shared.clientId)
         GatePaySDK.shared.setCurrentMode(isDarkMode: false, language: .cn)
         // 按照文档进行设置，groupId需要设置正确，否则会Crash。
-        GatePaySDK.shared.setWalletConnect(groupId: "group.com.Komi.SampleApp", projectName: "SampleApp", projectIcon: "https://gimg2.gateimg.com/app/pay/merchant_default_image_20251106_170054_d5dfffbe4804e6dee8b7659e88a7f4a6.png", appUrl: "www.gate.com")
+        GatePaySDK.shared.setWalletConnect(groupId: "group.com.Komi.SampleApp", projectName: "SampleApp", projectIcon: "https://yourApp.png", appUrl: "www.gate.com")
         return true
     }
 
