@@ -7,7 +7,7 @@ GateOpenPaySDK 是一个为 iOS 应用提供加密货币支付功能的 SDK。�
 
 需要到Gate开发者中心申请对应的ClientId、Scheme等 [官方开发者中心] (https://www.gate.com/docs/gatepay/common/)
 
-> 💡 **Demo 参考**：完整接入示例请参考 [GitHub Demo 工程](https://github.com/gatepay2025/gatepay-sdk-ios)
+> 💡 **Demo 参考**：完整接入示例请参考 [GitHub Demo 工程](https://github.com/gatepay2025/gatepay-sdk-ios/tree/main/Example/SampleApp)
 
 
 ## 系统要求
